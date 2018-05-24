@@ -1,0 +1,19 @@
+fieldset {
+  padding: 10px;
+  border-radius: 7px;
+}
+
+label {
+  display:inline-block;
+  margin-bottom: 10px;
+}
+
+input {
+  float:right;
+  margin-right: 30px;
+  width: 150px;
+}
+
+input:invalid {
+  background-color: pink;
+}
